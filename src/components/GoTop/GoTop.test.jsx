@@ -30,11 +30,13 @@ describe('<GoTop />', () => {
         right: 2rem;
         z-index: 6;
       }
+
       .c1 {
         display: inline-block;
         vertical-align: middle;
         overflow: hidden;
       }
+
       <div>
         <a
           aria-label="Go to top"
