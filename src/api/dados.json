@@ -4,7 +4,7 @@
     "id": 2,
     "title": "Landing Page",
     "slug": "landing-page",
-    "footer_text": "<p><a href=\"https://beacons.page/otaviomiranda\">Feito com ❤ por Otávio Miranda</a></p>",
+    "footer_text": "<p><a href=\"https://github.com/danielrodrigues2019\">Feito com ❤ por Daniel Rodrigues</a></p>",
     "published_at": "2021-11-05T00:41:04.470Z",
     "created_at": "2021-11-05T00:04:41.110Z",
     "updated_at": "2021-11-05T00:41:04.599Z",
@@ -78,7 +78,7 @@
           }
         ],
         "image_grid": [
-          
+
         ],
         "metadata": {
           "id": 6,
@@ -93,7 +93,7 @@
         "title": "Gallery",
         "description": "distinctio veritatis unde, reprehenderit minus ad dolores provident maiores",
         "text_grid": [
-          
+
         ],
         "image_grid": [
           {
@@ -373,7 +373,7 @@
           }
         ],
         "image_grid": [
-          
+
         ],
         "metadata": {
           "id": 9,
