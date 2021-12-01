@@ -5,6 +5,7 @@ import { mockBase } from '../Base/mock'
 import * as Styled from './styles'
 import { mapData } from '../../api/map-data'
 import { PageNotFound } from '../PageNotFoud'
+import { Loading } from '../Loading'
 
 function Home() {
   const [data, setData] = useState([])
@@ -12,7 +13,7 @@ function Home() {
   useEffect(() => {
     const load = async () => {
       try {
-        const data = await fetch('http://localhosta:1337/pages/?slug=landing-page')
+        const data = await fetch('http://localhost:1337/pages/?slug=landing-page')
         const json = await data.json()
         const pageData = mapData(json)
         setData(pageData[0])
@@ -29,7 +30,7 @@ function Home() {
   }
 
   if (data && !data.slug) {
-    return <h1>Carregando...</h1>
+    return <Loading />
   }
 
   return <Base {...mockBase} />
