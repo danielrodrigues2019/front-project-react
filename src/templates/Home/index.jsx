@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import * as Styled from './styles'
 import { mapData } from '../../api/map-data'
 import { Heading } from '../../components/Heading'
-import { GridTwoColum } from '../../components/GridTwoColumn'
+import { GridTwoColumn } from '../../components/GridTwoColumn'
 import { GridContent } from '../../components/GridContent'
 import { GridText } from '../../components/GridText'
 import { GridImage } from '../../components/GridImage'
@@ -47,7 +47,7 @@ function Home() {
         const key = `${slug}-${index}`
 
         if (component === 'section.section-two-columns') {
-          return <GridTwoColum key={key} {...section} />
+          return <GridTwoColumn key={key} {...section} />
         }
 
         if (component === 'section.section-content') {
