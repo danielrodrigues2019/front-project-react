@@ -1,19 +1,16 @@
 import { createGlobalStyle, css } from 'styled-components'
 
 export const GlobalStyles = createGlobalStyle`
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-  scroll-behavior: smooth;
-}
-
-body {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  body {
     font-size: 1.6rem;
     font-family: ${({ theme }) => theme.font.family.default};
   }
@@ -30,5 +27,9 @@ body {
   }
   a {
     color: ${({ theme }) => theme.colors.secondaryColor};
+  }
+  .table {
+    width: 100%;
+    overflow-y: auto;
   }
 `
